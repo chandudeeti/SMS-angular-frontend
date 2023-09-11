@@ -1,0 +1,31 @@
+<!-- <div class="container">
+    <div class="text-center">
+      <h2 class="text-primary mb-4">Student Details</h2>
+      <div class="card bg-light shadow p-4">
+        <p class="mb-3"><span class="font-weight-bold">Name:</span> {{student.firstName}} {{student.lastName}}</p>
+        <p><span class="font-weight-bold">Email:</span> {{student.email}}</p>
+      </div>
+    </div>
+  </div>
+   -->
+
+   <div class="container">
+    <div class="text-center">
+      <h2 class="text-primary mb-4">Student Details</h2>
+      <div class="student-details">
+        <h3 class="student-name">{{student.firstName}} {{student.lastName}}</h3>
+        <p class="student-email">Email: {{student.email}}</p>
+      </div>
+     
+      <div class="back-button">
+        <button mat-icon-button color="primary" (click)="goBack()">
+            <mat-icon> arrow_back</mat-icon>
+            
+        </button>
+      </div>
+      back
+    </div>
+    
+  </div>
+  
+  
